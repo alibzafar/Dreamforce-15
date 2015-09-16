@@ -8,7 +8,7 @@
  VERSION AUTHOR DATE USER-STORY Description
  1.0 - Ali Zafar (Salesforce)
  ***********************************************************************/
-public without sharing class w24CustomSettingsManager 
+public with sharing class w24CustomSettingsManager 
 {
     public static String TEST_VALUE = 'TEST_VALUE';
 
